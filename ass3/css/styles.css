@@ -8,7 +8,7 @@ body {
 #header-nav {
 	background-color: #B8997A;
 	border-radius: 0;
-	border-bottom: 2px solid #70665C;
+	border-bottom: 1px solid #70665C;
 }
 .navbar-header h1 { /* Company name*/
 	color: #70665C;
@@ -24,7 +24,7 @@ body {
 }
 
 .navbar-default .navbar-collapse {
-  border-top: 2px solid #70665C;  
+  border-top: 1px solid #70665C;  
 }
 #nav-list {
 	margin: 0 -15px 0;
@@ -39,15 +39,23 @@ body {
 	color: #70665C;
 }
 #chicken, #beef {
-	border-bottom:  2px solid #70665C; 
+	border-bottom:  1px solid #70665C; 
 }
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
 	border: 1px solid #70665C;
 }
 
 .navbar-header button.navbar-toggle:hover, .navbar-header button.navbar-toggle:hover > .icon-bar,
-.navbar-header button.navbar-toggle:active, .navbar-header button.navbar-toggle:active > .icon-bar {
+.navbar-header button.navbar-toggle:focus, .navbar-header button.navbar-toggle:focus > .icon-bar {
     border: 1px solid #F5EBD6;
+    background-color: #B8997A
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: #B8997A;
+}
+
+.navbar-header button.navbar-toggle:visited, .navbar-header button.navbar-toggle:visited > .icon-bar {
     background-color: #B8997A
 }
 
