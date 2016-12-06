@@ -6,15 +6,15 @@ body {
 }
 /* HEADER */
 #header-nav {
-	background-color: #DBC7BD;
+	background-color: #B8997A;
 	border-radius: 0;
-	border-bottom: 2px solid #38312E;
+	border-bottom: 2px solid #70665C;
 }
 .navbar-header h1 { /* Company name*/
 	color: #70665C;
 	font-size: 1.5em;
 	font-weight: bold;
-	text-shadow: 1px 1px 1px #38312E;
+	text-shadow: 1px 1px 1px #70665C;
 	margin-top: 0;
 	margin-bottom: 0;
 	line-height: .75;
@@ -24,18 +24,36 @@ body {
 }
 
 .navbar-default .navbar-collapse {
-  border-top: 2px solid #38312E;  
+  border-top: 2px solid #70665C;  
 }
 #nav-list {
 	margin: 0 -15px 0;
 }
 #nav-list a {
-	color: #70665C;
+	font-size: 1.2em;
+	color: #F5EBD6;
 	text-align: center;
 } 
 #nav-list a:hover {
 	background: #EDE8DE;
+	color: #70665C;
 }
 #chicken, #beef {
-	border-bottom:  2px solid #38312E; 
+	border-bottom:  2px solid #70665C; 
 }
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	border: 1px solid #70665C;
+}
+
+.navbar-header button.navbar-toggle:hover, .navbar-header button.navbar-toggle:hover > .icon-bar,
+.navbar-header button.navbar-toggle:active, .navbar-header button.navbar-toggle:active > .icon-bar {
+    border: 1px solid #F5EBD6;
+    background-color: #B8997A
+}
+
+.navbar-header button.navbar-toggle {
+	clear: both;
+	margin-top: -40px;
+}
+
+
