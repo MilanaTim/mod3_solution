@@ -1,0 +1,41 @@
+body {
+	font-size: 16px;
+	color: #70665C;
+	background-color: #F5EBD6;
+	font-family: 'Muli', sans-serif;
+}
+/* HEADER */
+#header-nav {
+	background-color: #DBC7BD;
+	border-radius: 0;
+	border-bottom: 2px solid #38312E;
+}
+.navbar-header h1 { /* Company name*/
+	color: #70665C;
+	font-size: 1.5em;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #38312E;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .75;
+}
+.navbar-header a:hover, .navbar-header a:focus {
+	text-decoration: none; 
+}
+
+.navbar-default .navbar-collapse {
+  border-top: 2px solid #38312E;  
+}
+#nav-list {
+	margin: 0 -15px 0;
+}
+#nav-list a {
+	color: #70665C;
+	text-align: center;
+} 
+#nav-list a:hover {
+	background: #EDE8DE;
+}
+#chicken, #beef {
+	border-bottom:  2px solid #38312E; 
+}
