@@ -87,19 +87,22 @@ body {
 }
 .row {
     margin: 0 0 20px;
-    background-color: #D1BD94;
 }
-.row div {
-	margin: 0;
+.menu-tile-wrap {
+    padding: 20px;
+}
+.menu-tile {
 	padding: 20px;
+	background-color: #D1BD94;
 }
+
 h2 {
 	font-size: 1.8em;
 	font-weight: bold;
 	margin-bottom: 30px;
 }
 h3 {
-	margin: 10px 0 20px;
+	margin: 0 0 20px;
 	font-weight: bold;
 	color: #524b44;
 }
@@ -123,7 +126,7 @@ p:nth-last-child(1) {
 
 @media (max-width: 767px) {
 	.container {
-		width: 80%;
+		width: 90%;
 	}
 	p {
 	font-size: .7em;
