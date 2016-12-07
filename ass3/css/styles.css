@@ -67,7 +67,9 @@ body {
 .navbar-header button.navbar-toggle:visited, .navbar-header button.navbar-toggle:visited > .icon-bar {
     background-color: #B8997A
 }
-
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #B8997A;
+}
 .navbar-header button.navbar-toggle {
 	clear: both;
 	margin-top: -50px;
