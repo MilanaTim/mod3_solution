@@ -14,7 +14,7 @@ body {
 .navbar-header {
 	padding-left: 20px;
 }
-.navbar-header h1 { /* Company name*/
+a.navbar-brand h1 { /* Company name*/
 	color: #524b44;
 	font-size: 2em;
 	padding: 10px 0;
@@ -25,7 +25,7 @@ body {
 	line-height: .6;
 	vertical-align: middle;
 }
-.navbar-header a {
+a.navbar-brand {
 	height: 70px;
 }
 .navbar-header a:hover, .navbar-header a:focus {
@@ -126,7 +126,7 @@ p:nth-last-child(1) {
 
 @media (max-width: 767px) {
 	.container {
-		width: 90%;
+		width: 100%;
 	}
 	p {
 	font-size: .7em;
